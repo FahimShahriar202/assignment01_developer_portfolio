@@ -1,6 +1,43 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body{
   font-family: "Azeret Mono", monospace;
+}
+/* banner section starts here */
+.banner-container{
+  width:1370px;
+  height: 620px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 2px solid red;
+  background-image: url("../assets/Hero-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.group1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 26px;
+  margin-left: 370px;
+  margin-right: 370px;
+  /* width: 240.28px;
+  height: 240px; */
+  /* left: 257.67%;
+  right: -257.67%;
+  top: 0%;
+  bottom: 0%;
+  transform: rotate(0.00deg); */
+  
 }
