@@ -12,11 +12,11 @@ body{
 }
 /* banner section starts here */
 .banner-container{
-  width:1370px;
-  height: 620px;
+  width:1440px;
+  height: 652px;
   margin: 0 auto;
   margin-top: 20px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background-image: url("../assets/Hero-bg.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -32,12 +32,87 @@ body{
   margin-top: 26px;
   margin-left: 370px;
   margin-right: 370px;
-  /* width: 240.28px;
-  height: 240px; */
-  /* left: 257.67%;
-  right: -257.67%;
-  top: 0%;
-  bottom: 0%;
-  transform: rotate(0.00deg); */
+  margin-bottom: 36px;
   
 }
+
+.text1{
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* height: 150px; */
+}
+/* 
+.header1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+} */
+
+.chotoText{
+  position: static;
+  width: 852px;
+  height: 52px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 24px 0px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  rgb(13, 19, 33)
+  opacity: 0.7;
+
+}
+
+.button{
+  /* Frame 2 */
+  
+  color: white;
+  position: static;
+  width: 208px;
+  height: 66px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 21px 24px 21px 24px;
+
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 32px 0px;
+  border-radius: 8px;
+
+  background: rgb(13, 19, 33);
+  rgb(13, 19, 33)
+  }
+
+nav li a{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+nav > ul > li{
+  display:inline;}
