@@ -10,30 +10,68 @@
 body{
   font-family: "Azeret Mono", monospace;
 }
-/* banner section starts here */
-.banner-container{
-  width:1440px;
-  height: 652px;
-  margin: 0 auto;
-  margin-top: 20px;
-  /* border: 2px solid red; */
-  background-image: url("../assets/Hero-bg.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
+/* nav styles */
+nav{
+  display: flex;
+  align-items: center;
+}
+
+.nav-title{
+  font-weight: 800px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+  
+  position: absolute;
+  width: 114px;
+  height: 34px;
+  left: 150px;
+  top: 50px;
+}
+
+nav ul li div{
+  color: black;
+  list-style: none;
+  text-decoration: none;
+  font-size: 20px;
+  /* Frame 2 */
+  position: absolute;
+  width: 300px;
+  height: 58px;
+  left: 1046px;
+  top: 38px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 24px 17px 24px;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+
+  opacity: 0.8;
 
 }
 
-.group1{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 26px;
-  margin-left: 370px;
-  margin-right: 370px;
-  margin-bottom: 36px;
-  
+
+.fistheader{
+  /* Hero-bg */
+  position: absolute;
+  width: 1440px;
+  height: 652px;
+  left: 0;
+  right: 0;
+  top: 131px;
+  bottom: 4462px;
+  /* background-position: center; */
+  background-image: url("../assets/Hero-bg.png") ;
 }
 
 .text1{
@@ -44,47 +82,21 @@ body{
   justify-content: center;
   /* height: 150px; */
 }
-/* 
-.header1{
+
+
+.group1{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-
-} */
-
-.chotoText{
-  position: static;
-  width: 852px;
-  height: 52px;
-  /* Auto layout */
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 0px;
-
-  /* Inside Auto Layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 24px 0px;
-  color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  letter-spacing: 0%;
-  text-align: center;
-  rgb(13, 19, 33)
-  opacity: 0.7;
-
+  margin-top: 26px;
+  margin-left: 370px;
+  margin-right: 370px;
 }
 
 .button{
   /* Frame 2 */
-  
+
   color: white;
   position: static;
   width: 208px;
@@ -108,11 +120,9 @@ body{
   rgb(13, 19, 33)
   }
 
-nav li a{
-  list-style: none;
-  text-decoration: none;
-  color: white;
-}
-
-nav > ul > li{
-  display:inline;}
+  nav li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+  }
+  
